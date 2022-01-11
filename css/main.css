@@ -1,0 +1,60 @@
+#player-controls {
+	border: solid 1px black;
+	padding: 10px;
+}
+
+.small-button {
+	margin-right: 10px;
+}
+
+.reverse {
+	transform: rotate(-180deg);
+}
+
+.active {
+	background-color: #347aeb;
+}
+
+.general-wrapper {
+	width: 90%;
+	display: flex;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.video-container {
+	width: 60%;
+	margin-right: 2.5%;
+}
+
+.video-container > canvas {
+	width: 100%;
+	height: auto;
+}
+
+.metric-container {
+	width: 40%;
+	height: inherit;
+	border: solid 1px black;
+	padding: 10px;
+	overflow: hidden;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+.red-text {
+	color: darkred;
+	font-weight: bold;
+}
+
+.green-text {
+	color: darkgreen;
+	font-weight: bold;
+}
+.blue-text {
+	color: darkblue;
+	font-weight: bold;
+}
+

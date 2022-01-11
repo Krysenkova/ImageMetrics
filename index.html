@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AVT Übungsaufgabe 3</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<h1>AVT Übungsaufgabe 3: Fehlermetriken und Qualitätsanalyse</h1>
+
+<div id="player-controls" class=general-wrapper>
+    <button id="btn-prev-frame" class="small-button">&#8676;</button>
+    <button id="btn-play-backward" class="small-button reverse">&#9654;</button>
+    <button id="btn-play-forward" class="small-button">&#9654;</button>
+    <button id="btn-next-frame" class="small-button">&#8677;</button>
+</div>
+
+<div class="general-wrapper">
+    <div class="video-container">
+        <canvas id="video-high-quality"></canvas>
+        <canvas id="video-low-quality"></canvas>
+    </div>
+    <div class="metric-container">
+        <h2>Fehler-Metriken</h2>
+        <table id="metrics-table"></table>
+        <canvas id="histogram" width="400" height="300">
+        </canvas>
+        <h5>MAX Histogram</h5>
+    </div>
+</div>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>
